@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle gaming-slot",
+        "command": "gaming-slot:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "gaming-slot",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "gaming-slot:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
